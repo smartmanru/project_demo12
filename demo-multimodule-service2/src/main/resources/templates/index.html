@@ -14,16 +14,12 @@
         <tr>
             <th>Имя</th>
             <th>Фамилия</th>
-            <th>Профессия</th>
-            <th>Год рождения</th>
         </tr>
         </thead>
         <tbody>
         <tr th:each="author:${authors}">
             <td th:text="${author.firstName}"></td>
             <td th:text="${author.lastName}"></td>
-            <td th:text="${author.profession}"></td>
-            <td th:text="${author.yearOfBirth}"></td>
         </tr>
         </tbody>
     </table>

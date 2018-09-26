@@ -41,16 +41,4 @@ public class Author implements Serializable {
      */
     @Column(name = "LAST_NAME")
     private String lastName;
-
-    /**
-     * Profession
-     */
-    @Column(name = "PROFESSION")
-    private String profession;
-
-    /**
-     * Year of birth
-     */
-    @Column(name = "YEAR_OF_BIRTH")
-    private Integer yearOfBirth;
 }

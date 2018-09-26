@@ -4,7 +4,7 @@ target/
 *.log
 *.log.*
 *~
-
+.svn/*
 
 ### STS ###
 .apt_generated

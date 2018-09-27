@@ -13,7 +13,7 @@
     <groupId>ru.cbr.tomsk.sample</groupId>
     <artifactId>demo-multimodule-service1</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
 
     <name>demo-multimodule-service1</name>
     <description>REST-service module for demo-multimodule</description>

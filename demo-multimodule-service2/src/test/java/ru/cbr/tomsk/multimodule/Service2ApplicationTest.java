@@ -44,8 +44,6 @@ public class Service2ApplicationTest {
         log.info("test02Web()...");
         String result = restTemplate.getForObject("http://localhost:"+port+"/",String.class);
         log.info("result: " + result);
-        assertNotNull(result);
-//        assertEquals("", result);
     }
 
 }

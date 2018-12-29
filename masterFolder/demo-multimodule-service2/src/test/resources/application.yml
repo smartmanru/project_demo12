@@ -1,2 +1,0 @@
-service1:
-  uri: ${SERVICE1_URI:http://localhost:8090/api/authors/1}

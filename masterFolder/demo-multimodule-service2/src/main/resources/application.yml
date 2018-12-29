@@ -1,0 +1,2 @@
+service1:
+  uri: ${SERVICE1_URI:http://10.10.16.7:8090/api/authors/1}
